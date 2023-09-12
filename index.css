@@ -1,0 +1,82 @@
+/* Fill CSS here */
+h1{
+    color: #2596be;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+}
+
+body > div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+form{
+    width: 25%;
+    margin-left: 40px;
+    padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+  
+label{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="text"],
+input[type="number"],
+select{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    width: 90%;
+    background-color: #2596be;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #ffffff;
+    color: #2596be;
+    border: #2596be 1px solid;
+}
+
+table{
+    width: 60%;
+    margin-right: 40px;
+    padding: 30px;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 13px;
+    background-color: #2596be;
+    color: #ffffff;
+}
+
+th,
+td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border: #ccc 1px solid;
+    font-size: 12px;
+}
+
+tbody tr td{
+    text-align: justify;
+}
+
+tbody tr:nth-child(even){
+    background-color: #ebf3f7;
+}
